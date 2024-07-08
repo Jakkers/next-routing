@@ -10,6 +10,9 @@ export default function IdPage({ params }) {
       <h1>This is the id nested route</h1>
       <p>These are the params:{params.id}</p>
       <Link href="/ice-cream/1/john">Nested Dynamic Route</Link>
+      <Link href="/ice-cream/1/This-is-also-a-comment-id">
+        Nested Dynamic Route 2
+      </Link>
     </main>
   );
 }
